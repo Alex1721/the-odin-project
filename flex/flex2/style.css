@@ -1,0 +1,35 @@
+.header{
+    background: #FDEFD5;
+    font-family: monospace;
+    padding: 8px; /* Permet d'insérer de la marge à l'intérieur du contenair. Pour que les éléments puissent être un peu décalées. */
+    /* Insérer le flex ici */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 48px;
+    color: tomato;
+    background: white;
+    padding: 4px 32px; /* Le premier est responsable de la colonne verticale tandis que l'autre est responsable de la colonne horizontale. */
+
+}
+
+u1{
+    /* this removes the dots on the list items */
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+a{
+    font-size: 22px;
+    background: white;
+    padding: 8px;
+    /* This removes the line under the links */
+    text-decoration: none;
+}
